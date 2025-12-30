@@ -17,7 +17,31 @@
 	<h1>Prediction and Music</h1>
 	<h2>Part 2!</h2>
 
+	<p>
+	Soooo let's keep going with the ideas I brought up and refine it a little bit further. I threw in a lot of potential ways to tie the two different fields of music composition and probability together. However, the best way in terms of utilizing the idea of different cadences having different setups in terms of algorithmic trading would be a mix of Convolution Neural Network and Time-Series Sequence Model. Those are some big scary models that are hard to grasp conceptually, but if you think of it in terms of music, it might make a little bit more sense. CNN's are used primarily in pattern recognition, similar to how our ears instantly recognize the function of a cadence in any music. If we can hear the cadence, we can hear what came before it, hence recognizing the approach of a cadence. If the cadence is a breakout, and we can even deduce the direction of the breakout, we will most definitely be hearing music coming out of our mouths as we cop that guap. I was focusing on a markov chain implementation, it is essentially the same idea, except a markov chain would've been a terrible way to interface this algorithm on a large scale, there would be millions of nodes. We can still think of different chordal functions as states in the ticker data, which I think is a great interface for me to stare at while waiting for my algorithm to decimate my brokerage account. 
+	</p>
 
+	<p>
+	The states can relate very closely with a Time-Series model as well. Since the Time-Series model is more "present" focused, and utilizes biases of recent relevant movement, our state can be much more than simply "we might make money" to "x% chance of maybe making money". This is all great, we are gaining towards an implementation rather than an actual abstract product of my ideas. That's okay though, since I didn't really come up with anything, I just tied the two together to help me think and learn about this topic. 
+	</p>
+
+	<p>
+	Speaking of learning, I am pretty fluent in controlling my html files and folders now, this was a great project in terms of learning to make blogs, but I need to change something, there is no real order in me making these blogs!!
+	</p>
+
+	<p>
+	I keep blabbering on and get nowhere, plus I think I could've made both the original and this amazing sequel into the same blogpost. Not sure if I want to do that now or to plan on doing that with my future blogs. And also, who am I even writing this to?? Is anyone even reading my blogs? What do I gain from doing this? I feel like this blog section is kind of like my ideaspace, I got a lot of brainstorming done writing these out. I did start the implementation in C++, which most definitely has quite the learning curve with the scale of things I am trying to do. 
+	</p>
+
+	<h3>Back to topic... Implementation!!</h3>
+
+	<p>
+	Implementing, I will be papertrading on IBKR, using their IB Gateway API, hosted on my Ubuntu XBOX360 (which I hope to get done soon). I am still unfamiliar with my C++ OOP syntax, RAII and smart pointers, etc. All very new to me, plus I am trying to train a model, so I am learning SQL on top of all this. I am debating if I want to keep going with raw C++, which would give me a 10 inch penis, but like I also have a life, so I'm not sure yet. 
+	</p>
+
+	<p>
+	Here's my general ML pipeline idea: Have a SQL database of past data to build the CNN and the initial Time-Series models (CNN will be very low maintainence in terms of training on live data, it will most likely be trained soley on past data. Time-Series model on the hand will be learning on the fly)
+	</p>
 	
 </body>
 </html>
